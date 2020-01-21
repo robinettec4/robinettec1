@@ -7,6 +7,7 @@
 	$Major = "Computer Science";
 	$Year = "Senior";
 	$Excuse = "fill the rest of the paragraph because I am out of things to say about myself.";
+	$Image = "4.jpg";
 ?>
 
 <head>
@@ -21,5 +22,6 @@
 		<p><br></p>
 		<p><?php echo "I don't tend to have many expectations before classes. I guess my biggest expectation at the moment would be learning php since that's what we've started." ?></p>
 		<a class="btn btn-primary btn-lg" href="#" role="button"><?php echo $Email ?></a>
+		<?php echo '<img src="'. $Image .'" alt="error" />'; ?>
 	</div>
 </HTML>
